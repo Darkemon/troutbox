@@ -56,7 +56,7 @@ func NewPostgresMessageRepository(db *sql.DB, lockID int64, opts ...Option) *Pos
 func (r *PostgresMessageRepository) Migrate(ctx context.Context) error {
 	query := fmt.Sprintf(`
         CREATE TABLE IF NOT EXISTS %s (
-            id SERIAL NOT NULL,
+            id BIGSERIAL NOT NULL,
             key TEXT NOT NULL,
             value BYTEA NOT NULL,
             timestamp TIMESTAMP NOT NULL,
