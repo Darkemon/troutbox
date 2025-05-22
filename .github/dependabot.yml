@@ -11,3 +11,25 @@ updates:
       dependencies:
         patterns:
           - "*"
+  - package-ecosystem: "gomod"
+    directory: "/examples/postgres_rabbitmq"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 2
+    allow:
+      - dependency-type: "direct"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+  - package-ecosystem: "gomod"
+    directory: "/tests/integration"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 2
+    allow:
+      - dependency-type: "direct"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
