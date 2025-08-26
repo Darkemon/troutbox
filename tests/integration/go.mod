@@ -7,7 +7,7 @@ replace github.com/Darkemon/troutbox => ../..
 require (
 	github.com/Darkemon/troutbox v0.0.0
 	github.com/lib/pq v1.10.9
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 )
 
 require (
