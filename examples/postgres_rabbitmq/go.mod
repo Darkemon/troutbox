@@ -6,7 +6,7 @@ replace github.com/Darkemon/troutbox => ../..
 
 require (
 	github.com/Darkemon/troutbox v0.0.0
-	github.com/lib/pq v1.11.1
+	github.com/lib/pq v1.11.2
 	github.com/rabbitmq/amqp091-go v1.10.0
 )
 
